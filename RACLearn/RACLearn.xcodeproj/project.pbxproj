@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0DFB352012F2750020FEBB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DFB342012F2750020FEBB /* Person.m */; };
+		3D0DFB382012FC3E0020FEBB /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DFB372012FC3E0020FEBB /* NSObject+KVO.m */; };
+		3D1453562012FD83000DE814 /* NSKVONotifying_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1453552012FD83000DE814 /* NSKVONotifying_Person.m */; };
 		3D2491132012D9C000787DAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2491122012D9C000787DAD /* AppDelegate.m */; };
 		3D2491162012D9C000787DAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2491152012D9C000787DAD /* ViewController.m */; };
 		3D2491192012D9C000787DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2491172012D9C000787DAD /* Main.storyboard */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0DFB332012F2750020FEBB /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3D0DFB342012F2750020FEBB /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3D0DFB362012FC3E0020FEBB /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		3D0DFB372012FC3E0020FEBB /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		3D1453542012FD83000DE814 /* NSKVONotifying_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVONotifying_Person.h; sourceTree = "<group>"; };
+		3D1453552012FD83000DE814 /* NSKVONotifying_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_Person.m; sourceTree = "<group>"; };
 		3D24910E2012D9BF00787DAD /* RACLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2491112012D9C000787DAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D2491122012D9C000787DAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +114,12 @@
 				3D2491122012D9C000787DAD /* AppDelegate.m */,
 				3D2491142012D9C000787DAD /* ViewController.h */,
 				3D2491152012D9C000787DAD /* ViewController.m */,
+				3D0DFB332012F2750020FEBB /* Person.h */,
+				3D0DFB342012F2750020FEBB /* Person.m */,
+				3D0DFB362012FC3E0020FEBB /* NSObject+KVO.h */,
+				3D0DFB372012FC3E0020FEBB /* NSObject+KVO.m */,
+				3D1453542012FD83000DE814 /* NSKVONotifying_Person.h */,
+				3D1453552012FD83000DE814 /* NSKVONotifying_Person.m */,
 				3D2491172012D9C000787DAD /* Main.storyboard */,
 				3D24911A2012D9C000787DAD /* Assets.xcassets */,
 				3D24911C2012D9C000787DAD /* LaunchScreen.storyboard */,
@@ -267,6 +282,9 @@
 			files = (
 				3D2491162012D9C000787DAD /* ViewController.m in Sources */,
 				3D2491212012D9C000787DAD /* main.m in Sources */,
+				3D0DFB382012FC3E0020FEBB /* NSObject+KVO.m in Sources */,
+				3D0DFB352012F2750020FEBB /* Person.m in Sources */,
+				3D1453562012FD83000DE814 /* NSKVONotifying_Person.m in Sources */,
 				3D2491132012D9C000787DAD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EFALXFEL63;
 				INFOPLIST_FILE = RACLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Xingfuliangyun.RACLearn;
@@ -444,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EFALXFEL63;
 				INFOPLIST_FILE = RACLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Xingfuliangyun.RACLearn;
