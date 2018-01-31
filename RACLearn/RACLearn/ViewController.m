@@ -26,11 +26,16 @@
       1.runtime动态
      */
     
+   
+}
+
+- (void)kvoDemo
+{
     Person *p = [[Person alloc] init];
     
     [p lsf_addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
     
-//    [p addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
+    //    [p addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
     
     NSLog(@"%@", NSStringFromClass([p class]));
     //NSKVONotifying_Person
@@ -39,7 +44,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    _person.age++;
+//    _person.age++;
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
@@ -54,7 +59,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
